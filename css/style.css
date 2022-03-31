@@ -199,8 +199,7 @@ header nav ul li a:hover {
 
 
 footer {
-  background: rgb(100, 136, 184);
-  background: linear-gradient(0deg, rgba(100, 136, 184, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background-color: rgb(100, 136, 184);
   width: 100%;
   display: flex;
   justify-content: center;
