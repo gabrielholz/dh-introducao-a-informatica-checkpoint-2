@@ -209,8 +209,23 @@ header nav ul li a:hover {
   margin: 10px;
 }
 
+#seguranca-informatica p { 
+  color: #000;
+  padding: 5px;
+}
 
 
+#seguranca-informatica a { 
+  color: #000;
+  font-weight: bold;
+}
+
+#seguranca-informatica a:hover { 
+  color:#444;
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(1.5);
+}
 
 footer {
   background-color: rgb(100, 136, 184);
