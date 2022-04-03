@@ -133,7 +133,8 @@ header nav ul li a:hover {
 
 .pesquisa__card__titulo {
   font-size: 2rem;
-
+text-align: center;
+padding: 2%;
 
 }
 
@@ -153,6 +154,8 @@ header nav ul li a:hover {
   width: 400px;
   height: 300px;
   border-radius: 10px;
+  display: flex;
+  margin-left: 25%;
 }
 
 
