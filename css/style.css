@@ -24,14 +24,14 @@ main {
 
 
 header {
-  background-color: rgba(39,43,48,1);
+  background-color: rgba(39, 43, 48, 1);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 100px;
   width: 100%;
   padding: 15px;
-  
+
 }
 
 h1 {
@@ -88,12 +88,11 @@ header nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   position: sticky;
 }
 
 .pesquisa__nav {
-  position: sticky;
   display: flex;
   align-items: center;
   width: 100%;
@@ -140,8 +139,8 @@ header nav ul li a:hover {
   font-weight: bold;
 }
 
-.pesquisa__card__conteudo a:hover { 
-  color:#444;
+.pesquisa__card__conteudo a:hover {
+  color: #444;
   font-weight: bold;
   cursor: pointer;
   transform: scale(1.5);
@@ -174,7 +173,7 @@ header nav ul li a:hover {
 
 }
 
-#grupo h2{
+#grupo h2 {
   text-align: center;
   margin-bottom: 3%;
   font-size: 1.5rem;
@@ -237,11 +236,167 @@ footer {
   flex-direction: column;
   align-items: center;
   height: 270px;
-  background-color: rgba(39,43,48,1);
-  margin-top: 10%;  
+  background-color: rgba(39, 43, 48, 1);
+  margin-top: 10%;
   gap: 5px;
 }
 
-footer span{
+footer span {
   color: #fff;
+}
+
+
+@media (max-width: 460px) {
+
+  /*mobile*/
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+    height: 300px;
+    flex-wrap: wrap;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+  }
+
+  header nav ul li a {
+    padding: 5px;
+  }
+
+
+  .pesquisa__card {
+    width: 100%;
+  }
+
+  .pesquisa__nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pesquisa__nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2px;
+  }
+
+  .pesquisa__card__conteudo img {
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .img__aluno {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+  }
+
+  .icone__social {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+
+}
+
+@media (min-width: 461px) and (max-width:768px) {
+  /*tablet*/
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+    height: 250px;
+
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+  }
+
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul li a {
+    padding: 5px;
+    width: 100%;
+  }
+
+
+  .pesquisa__card {
+    width: 100%;
+  }
+
+  .pesquisa__nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pesquisa__nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2px;
+
+  }
+
+
+  .pesquisa__card__conteudo img {
+    width: 100%;
+  }
+
+  .card {
+    width: 70%;
+  }
+
+  .img__aluno {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+
+  .icone__social {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+  }
+
 }
